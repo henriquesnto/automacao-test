@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class Elementos {
 	
-	// botao
+	// botao1
 
 	private By bntBaz = By.xpath("//div[@id='content']/div/div/div/div/a[1]");
 	private By bntBar = By.xpath("//div[@id='content']/div/div/div/div/a[2]");
