@@ -45,8 +45,9 @@ public class ReservaTest {
 	}
 	
 	@Given("clique em verifica diponibilidade")
-	public void cliqueEmVerificaDiponibilidade() {
-	   metodos.clicar(el.bntVerificaDispo);
+	public void cliqueEmVerificaDiponibilidade() throws InterruptedException {
+		Thread.sleep(5000);
+		metodos.clicar(el.bntVerificaDispo);
 	}
 	
 	@Given("adicionar reserva ao carrinho")
@@ -78,9 +79,12 @@ public class ReservaTest {
 		metodos.escrever(el.email, "testesilva@teste.com");
 		metodos.escrever(el.pNome, "teste");
 		metodos.escrever(el.sNome, "silva");
+		Thread.sleep(3000);
 		metodos.clicar(el.tCPF);
+		Thread.sleep(3000);
 		metodos.escrever(el.doc, "658.241.400-30");
 		metodos.escrever(el.tel, "11 999999999");
+		Thread.sleep(3000);
 		metodos.clicar(el.pais);
 		metodos.escrever(el.cep, "76813-056");
 		metodos.clicar(el.pesquisar);
