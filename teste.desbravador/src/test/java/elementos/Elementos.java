@@ -28,7 +28,6 @@ public class Elementos {
 	public By nomeCartão = By.xpath("//*[@id=\"root\"]/main/div/div/div[3]/div/div[2]/form/div[1]/div[2]/div/div[3]/div[2]/div/input");
 	public By valid = By.xpath("//*[@id=\"root\"]/main/div/div/div[3]/div/div[2]/form/div[1]/div[2]/div/div[3]/div[3]/div/input");
 	public By cvc = By.xpath("//*[@id=\"root\"]/main/div/div/div[3]/div/div[2]/form/div[1]/div[2]/div/div[3]/div[4]/div/input");
-	public By captch = By.xpath("//*[@id=\"recaptcha-anchor-label\"]");
 	public By termo = By.xpath("//*[@id=\"root\"]/main/div/div/div[3]/div/div[2]/form/div[3]/div[2]/div/div[1]/div/div/input");
 	public By finalizar = By.xpath("//*[@id=\"root\"]/main/div/div/div[3]/div/div[2]/form/div[5]/div/div/button");
 	

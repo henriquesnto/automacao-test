@@ -93,7 +93,6 @@ public class ReservaTest {
 		metodos.escrever(el.nomeCartão, "DESBRAVADOR SOFTWARE");
 		metodos.escrever(el.valid, "12/23");
 		metodos.escrever(el.cvc, "123");
-		metodos.clicar(el.captch);
 		metodos.clicar(el.termo);
 		
 	}
