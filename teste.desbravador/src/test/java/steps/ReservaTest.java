@@ -24,11 +24,11 @@ public class ReservaTest {
 		
 	}
 	
-	/*@After
+	@After
 	public void fecharNavegador() {
 		Executa.fecharNavegador();
 		
-	}*/
+	}
 	
 	@Given("selecione a data de entrada e saída")
 	public void selecioneADataDeEntradaESaída() throws InterruptedException {
